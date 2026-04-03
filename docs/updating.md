@@ -23,7 +23,7 @@ git checkout -b update_snapshot
 
 Now edit the project to depend on the new Compose SNAPSHOT version:
 
-Edit [`/gradle/libs.versions.toml`](https://github.com/google/accompanist/blob/main/gradle/libs.versions.toml):
+Edit [`/gradle/libs.versions.toml`](https://github.com/cloudesize67-cmd/accompanist/blob/main/gradle/libs.versions.toml):
 
 Under `[versions]`:
 
@@ -60,7 +60,7 @@ git merge snapshot
 
 ### #2: Update dependencies
 
-Edit [`/gradle/libs.versions.toml`](https://github.com/google/accompanist/blob/main/gradle/libs.versions.toml):
+Edit [`/gradle/libs.versions.toml`](https://github.com/cloudesize67-cmd/accompanist/blob/main/gradle/libs.versions.toml):
 
 Under `[versions]`:
 
@@ -76,7 +76,7 @@ Commit the changes.
 
 ### #3: Bump the version number
 
-Edit [gradle.properties](https://github.com/google/accompanist/blob/main/gradle.properties):
+Edit [gradle.properties](https://github.com/cloudesize67-cmd/accompanist/blob/main/gradle.properties):
 
  * Update the `VERSION_NAME` property and remove the `-SNAPSHOT` suffix.
 
@@ -90,18 +90,18 @@ Push the branch to GitHub and create a PR against the `main` branch, and send fo
 
 Once the above PR has been approved and merged, we need to create the GitHub release:
 
- * Open up the [Releases](https://github.com/google/accompanist/releases) page.
+ * Open up the [Releases](https://github.com/cloudesize67-cmd/accompanist/releases) page.
  * At the top you should see a 'Draft' release, auto populated with any PRs since the last release. Click 'Edit'.
  * Make sure that the version number matches what we released (the tool guesses but is not always correct).
  * Double check everything, then press 'Publish release'.
 
-At this point the release is published. This will trigger the docs action to run, which will auto-deploy a new version of the [website](https://google.github.io/accompanist/).
+At this point the release is published. This will trigger the docs action to run, which will auto-deploy a new version of the [website](https://cloudesize67-cmd.github.io/accompanist/).
 
 ### #6: Prepare the next development version
 
 The current release is now finished, but we need to update the version for the next development version:
 
-Edit [gradle.properties](https://github.com/google/accompanist/blob/main/gradle.properties):
+Edit [gradle.properties](https://github.com/cloudesize67-cmd/accompanist/blob/main/gradle.properties):
 
  * Update the `VERSION_NAME` property, by increasing the version number, and adding the `-SNAPSHOT` suffix.
  * Example: released version: `0.3.0`. Update to `0.3.1-SNAPSHOT`

@@ -2,7 +2,7 @@
 
 [![Maven Central](https://img.shields.io/maven-central/v/com.google.accompanist/accompanist-adaptive)](https://search.maven.org/search?q=g:com.google.accompanist)
 
-For more information, visit the documentation: https://google.github.io/accompanist/adaptive
+For more information, visit the documentation: https://cloudesize67-cmd.github.io/accompanist/adaptive
 
 ## Download
 

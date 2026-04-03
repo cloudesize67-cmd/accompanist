@@ -34,6 +34,6 @@ public class PermissionsIssueRegistry : IssueRegistry() {
     override val vendor: Vendor = Vendor(
         vendorName = "Accompanist Permissions",
         identifier = "com.google.accompanist.permissions",
-        feedbackUrl = "https://github.com/google/accompanist/issues/new/choose"
+        feedbackUrl = "https://github.com/cloudesize67-cmd/accompanist/issues/new/choose"
     )
 }
