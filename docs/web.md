@@ -23,7 +23,7 @@ WebView(
 
 This will display a WebView in your Compose layout that shows the URL provided.
 
-There is a larger sample in the sample app which can be found [here](https://github.com/google/accompanist/blob/main/sample/src/main/java/com/google/accompanist/sample/webview/BasicWebViewSample.kt). This sample also shows how to show a loading state.
+There is a larger sample in the sample app which can be found [here](https://github.com/cloudesize67-cmd/accompanist/blob/main/sample/src/main/java/com/google/accompanist/sample/webview/BasicWebViewSample.kt). This sample also shows how to show a loading state.
 
 ### WebView settings including JavaScript
 

@@ -62,7 +62,7 @@ systemUiController.setStatusBarColor(
 
 ## Samples
 
-For complete samples, check out the [Insets samples](https://github.com/google/accompanist/tree/main/sample/src/main/java/com/google/accompanist/sample/insets) which all use `SystemUiController` to set transparent system bars.
+For complete samples, check out the [Insets samples](https://github.com/cloudesize67-cmd/accompanist/tree/main/sample/src/main/java/com/google/accompanist/sample/insets) which all use `SystemUiController` to set transparent system bars.
 
 ## Download
 [![Maven Central](https://img.shields.io/maven-central/v/com.google.accompanist/accompanist-systemuicontroller)](https://search.maven.org/search?q=g:com.google.accompanist)

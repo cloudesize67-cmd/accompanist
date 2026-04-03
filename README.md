@@ -1,5 +1,7 @@
 ![Accompanist logo](docs/header.png)
 
+> **Note:** This is a fork of [google/accompanist](https://github.com/google/accompanist). See the [upstream repository](https://github.com/google/accompanist) for the original project.
+
 Accompanist is a group of libraries that aim to supplement [Jetpack Compose][compose] with features that are commonly required by developers but not yet available.
 
 Accompanist is a labs like environment for new Compose APIs. We use it to help fill known gaps in the Compose toolkit, experiment with new APIs and to gather insight into the development experience of developing a Compose library. The goal of these libraries is to upstream them into the official toolkit, at which point they will be deprecated and removed from Accompanist.
@@ -8,7 +10,7 @@ For more details like, why does this library exist? Why is it not part of Androi
 
 ## Compose versions
 
-Each [release](https://github.com/google/accompanist/releases) outlines what version of the Compose UI libraries it depends on. We are currently releasing multiple versions of Accompanist for the different versions of Compose:
+Each [release](https://github.com/cloudesize67-cmd/accompanist/releases) outlines what version of the Compose UI libraries it depends on. We are currently releasing multiple versions of Accompanist for the different versions of Compose:
 
 <table>
  <tr>
@@ -53,13 +55,13 @@ A library which provides a way to use Android Drawables as Jetpack Compose Paint
 A library providing a collection of utilities for adaptive layouts.
 
 ### 🧭✨[Navigation-Animation](./navigation-animation/) (Deprecated & Removed)
-See our [Migration Guide](https://google.github.io/accompanist/navigation-animation/) for migrating to using built in support for animations in Jetpack Navigation Compose. 
+See our [Migration Guide](https://cloudesize67-cmd.github.io/accompanist/navigation-animation/) for migrating to using built in support for animations in Jetpack Navigation Compose. 
 
 ### 🧭🎨️ [Navigation-Material](./navigation-material/) (Deprecated & Removed)
-See our [Migration Guide](https://google.github.io/accompanist/navigation-material/) for migrating to using built in material-navigation support. 
+See our [Migration Guide](https://cloudesize67-cmd.github.io/accompanist/navigation-material/) for migrating to using built in material-navigation support. 
 
 ### 🍫 [System UI Controller](./systemuicontroller/) (Deprecated & Removed)
-We recommend migrating to edge to edge. See our [Migration Guide](https://google.github.io/accompanist/systemuicontroller/) for more details.
+We recommend migrating to edge to edge. See our [Migration Guide](https://cloudesize67-cmd.github.io/accompanist/systemuicontroller/) for more details.
 
 ---
 

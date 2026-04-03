@@ -61,7 +61,7 @@ private fun FeatureThatRequiresCameraPermission() {
 }
 ```
 
-For more examples, refer to the [samples](https://github.com/google/accompanist/tree/main/sample/src/main/java/com/google/accompanist/sample/permissions).
+For more examples, refer to the [samples](https://github.com/cloudesize67-cmd/accompanist/tree/main/sample/src/main/java/com/google/accompanist/sample/permissions).
 
 ## Limitations
 

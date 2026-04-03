@@ -74,7 +74,7 @@ The following is the deprecated guide for using Navigation Material in Accompani
     }
     ```
 
-For more examples, refer to the [samples](https://github.com/google/accompanist/tree/main/sample/src/main/java/com/google/accompanist/sample/navigation/material).
+For more examples, refer to the [samples](https://github.com/cloudesize67-cmd/accompanist/tree/main/sample/src/main/java/com/google/accompanist/sample/navigation/material).
 
 ## Download
 

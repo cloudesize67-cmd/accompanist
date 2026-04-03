@@ -1,6 +1,6 @@
 # Migration from dev.chrisbanes.accompanist
 
-In March 2021, the Accompanist project moved from [github.com/chrisbanes/accompanist](https://github.com/chrisbanes/accompanist) to [github.com/google/accompanist](https://github.com/google/accompanist). At the same time we migrated the libraries over to a new package name and Maven group ID.
+In March 2021, the Accompanist project moved from [github.com/chrisbanes/accompanist](https://github.com/chrisbanes/accompanist) to [github.com/google/accompanist](https://github.com/google/accompanist). This fork is hosted at [github.com/cloudesize67-cmd/accompanist](https://github.com/cloudesize67-cmd/accompanist). At the same time we migrated the libraries over to a new package name and Maven group ID.
 
 As a summary:
 
